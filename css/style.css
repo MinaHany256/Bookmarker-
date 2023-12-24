@@ -1,0 +1,82 @@
+body{
+    background-color: #F7ECDE;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    font-weight: 500;
+    color: #352e28;
+    position: relative;
+    display: inline-block;
+    margin-top: 50px;
+}
+h2{
+    font-family: 'Righteous', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    background-image : linear-gradient(to right, rgb(60, 165, 92), rgb(181, 172, 73));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+h1:after{
+    content: '';
+    position: absolute;
+    background-color: #FEC260;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 30px;
+    z-index: -1;
+    transition: all 0.5s;
+}
+h1:hover::after{
+    top: 15px;
+}
+p{
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+.content{
+    border-top: dotted;
+    border-bottom: dotted;
+}
+
+.mybtn{
+    background-color: #D1512D;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.mybtn:hover{
+    background-color: #BB4120;
+    
+}
+a{
+  text-decoration: none;
+  color: #fff;    
+}
+.mybg{
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    
+}
+.myModal{
+    width: 35%;
+    height: 35%;
+    background-color: #fff;
+}
+#mainmodal{
+display: none !important;
+}
+
+
